@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item android:title="@string/string_id_navigation_menu_section_01">
+            <menu>
+                <item
+                    android:id="@+id/nav_drawer_menu_id_option_01"
+                    android:icon="@mipmap/account_information"
+                    android:title="@string/string_id_navigation_menu_option_02" />
+
+                <item
+                    android:id="@+id/nav_drawer_menu_id_option_02"
+                    android:icon="@mipmap/update_details"
+                    android:title="@string/string_id_navigation_menu_option_01" />
+            </menu>
+        </item>
+
+        <item android:title="@string/string_id_navigation_menu_section_02">
+            <menu>
+                <item
+                    android:id="@+id/nav_drawer_menu_id_option_03"
+                    android:icon="@mipmap/account_balance"
+                    android:title="@string/string_id_navigation_menu_option_03" />
+
+                <item
+                    android:id="@+id/nav_drawer_menu_id_option_04"
+                    android:icon="@mipmap/transaction_history"
+                    android:title="@string/string_id_navigation_menu_option_04" />
+
+                <item
+                    android:id="@+id/nav_drawer_menu_id_option_05"
+                    android:icon="@mipmap/make_a_transaction"
+                    android:title="@string/string_id_navigation_menu_option_05" />
+
+                <item
+                    android:id="@+id/nav_drawer_menu_id_option_05_01"
+                    android:icon="@drawable/transaction_search"
+                    android:title="@string/string_id_navigation_menu_option_05_01" />
+
+                <item
+                    android:id="@+id/nav_drawer_menu_id_option_05_02"
+                    android:icon="@drawable/transaction_delete"
+                    android:title="@string/string_id_navigation_menu_option_05_02" />
+            </menu>
+        </item>
+
+        <item android:title="@string/string_id_navigation_menu_section_03">
+            <menu>
+                <item
+                    android:id="@+id/nav_drawer_menu_id_option_06"
+                    android:icon="@mipmap/apply_for_loan"
+                    android:title="@string/string_id_navigation_menu_option_06" />
+            </menu>
+        </item>
+
+        <item android:title="@string/string_id_navigation_menu_section_04">
+            <menu>
+                <item
+                    android:id="@+id/nav_drawer_menu_id_option_07"
+                    android:icon="@mipmap/lodge_a_complaint"
+                    android:title="@string/string_id_navigation_menu_option_07" />
+            </menu>
+        </item>
+    </group>
+</menu>

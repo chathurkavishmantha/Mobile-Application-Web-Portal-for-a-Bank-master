@@ -1,0 +1,139 @@
+<resources>
+    <!--
+        TRANSACTION MANAGEMENT
+    -->
+    <string name="string_id_app_name">AlliantBankApp</string>
+    <string name="string_id_Action_Bar_Title">AlliantApp</string>
+    <string name="string_id_navigation_menu_option_01">Delete Account</string>
+    <string name="string_id_navigation_menu_option_02">Account Information</string>
+    <string name="string_id_navigation_menu_option_03">Account Balance</string>
+    <string name="string_id_navigation_menu_option_04">Transaction History</string>
+    <string name="string_id_navigation_menu_option_05">Make a Transaction</string>
+    <string name="string_id_navigation_menu_option_05_01">Search for Transactions</string>
+    <string name="string_id_navigation_menu_option_05_02">Remove a Transaction</string>
+    <string name="string_id_navigation_menu_option_06">Apply for Loan</string>
+    <string name="string_id_navigation_menu_option_07">Lodge a Complaint</string>
+    <string name="string_id_navigation_menu_section_01">Personal Information</string>
+    <string name="string_id_navigation_menu_section_02">Account Balance &amp; Transactions</string>
+    <string name="string_id_navigation_menu_section_03">Loans &amp; Leases</string>
+    <string name="string_id_navigation_menu_section_04">Service</string>
+
+    <string name="string_id_navigation_drawer_open">Open navigation drawer</string>
+    <string name="string_id_navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="string_id_splash_welcome">Alliant Bank</string>
+
+    <string name="string_id_important_menu_option_01">Home</string>
+
+    <string name="string_id_account_balance_tv_01">Full Name</string>
+    <string name="string_id_account_balance_tv_02">Account 1</string>
+    <string name="string_id_account_balance_tv_03">Account Type</string>
+    <string name="string_id_account_balance_tv_04">xxxxxxxx.xx</string>
+    <string name="string_id_account_balance_tv_table_balance">Balance (Rs.)</string>
+
+    <string name="string_id_transaction_history_tv_01">Transactions</string>
+    <string name="string_id_transaction_history_tv_table_head01">Credit Acc.</string>
+    <string name="string_id_transaction_history_tv_table_head02">Date</string>
+    <string name="string_id_transaction_history_tv_table_head03">Amount</string>
+    <string name="string_id_transaction_history_tv_table_head04">Debit Acc.</string>
+
+    <string name="string_id_make_a_transaction_tv01">Your Account Details</string>
+    <string name="string_id_make_a_transaction_tv02">Full Name </string>
+    <string name="string_id_make_a_transaction_tv03">Credit Account : </string>
+    <string name="string_id_make_a_transaction_tv04">Account Number</string>
+    <string name="string_id_make_a_transaction_tv05">Account Balance (Rs.) : </string>
+    <string name="string_id_make_a_transaction_tv06">xxx.xx</string>
+    <string name="string_id_make_a_transaction_tv07">Debit Account Details</string>
+    <string name="string_id_make_a_transaction_tv08">Debit Account No : </string>
+    <string name="string_id_make_a_transaction_tv09">Account Number</string>
+    <string name="string_id_make_a_transaction_tv10">Transfer Amount : </string>
+    <string name="string_id_make_a_transaction_tv11">xxx.xx</string>
+    <string name="string_id_make_a_transaction_tv12">TRANSFER</string>
+
+    <string name="string_id_search_transactions_tv01">Search Transactions by Debit Account</string>
+    <string name="string_id_search_transactions_et01">Account No. (9 digit)</string>
+    <string name="string_id_search_transactions_btn01">Search</string>
+
+    <string name="string_id_error_field_cannot_be_empty">This field cannot be empty!</string>
+    <string name="string_id_error_field_should_only_contain_numeric">This field must only contain numeric values!</string>
+    <string name="string_id_error_field_should_be_nine_digit">This field must have nine digits!</string>
+    <string name="string_id_error_credit_and_debit_cannot_be_the_same">Credit account and debit account cannot be same!</string>
+    <string name="string_id_error_field_should_only_contain_double">This field should only contain a double value!</string>
+    <string name="string_id_error_field_should_be_positive">This field should only contain a positive value!</string>
+    <string name="string_id_error_transfer_invalid">You can only transfer an amount less than current balance!</string>
+
+    <string name="string_id_error_search_transactions">You cannot search transactions for the same account!</string>
+    <string name="string_id_search_transactions_alert_title">Transaction List</string>
+    <string name="string_id_search_transactions_alert_box_error">No Data Found</string>
+
+    <string name="string_id_remove_a_transaction_tv01">Remove a Transaction (Illogical)</string>
+    <string name="string_id_remove_a_transaction_et01">Transaction ID (Integer)</string>
+    <string name="string_id_remove_a_transaction_btn01">Remove</string>
+
+    <string name="string_id_remove_a_transaction_error">You can only remove transactions credited by your account!</string>
+    <string name="string_id_remove_a_transaction_success">Transaction removed success fully!</string>
+    <string name="string_id_remove_a_transaction_alert_title">Transaction Removal!</string>
+
+    <!--
+        USER MANAGEMENT
+    -->
+    <string name="hint_email">Email</string>
+    <string name="hint_account_no">Account No</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="btn_text_register">Register</string>
+    <string name="link_already_member">Already a member? Login</string>
+
+    <string name="btn_text_login">Login</string>
+    <string name="link_not_member">No account yet? Create one</string>
+    <string name="link_forgot_password">Forgot Password</string>
+
+    <string name="btn_text_confirm">Confirm</string>
+
+    <string name="btn_text_reset_password">Reset Password</string>
+
+    <string name="error_message_email_empty">Email cannot be empty!</string>
+    <string name="error_message_email_invalid">Email should be valid!</string>
+    <string name="error_message_username_invalid">Username should be valid!</string>
+    <string name="error_message_account_no_empty">AccountNo cannot be empty!</string>
+    <string name="error_message_account_no_invalid">AccountNo should be numeric only!</string>
+    <string name="error_message_username_empty">Username cannot be empty!</string>
+    <string name="error_message_password_empty">Password cannot be empty!</string>
+    <string name="error_message_confirm_password_not_matching">Passwords do not match!</string>
+    <string name="error_message_no_physical_account">You have no physical account!</string>
+    <string name="error_message_already_a_online_user">You already have an online account!</string>
+    <string name="error_message_login_not_valid">Credentials are wrong!</string>
+    <string name="success_message_registered">You have successfully registered!</string>
+    <string name="search_by_transaction_tv01">Search Transactions by Transaction ID</string>
+    <string name="search_by_transaction_et01">Transaction ID (integer)</string>
+    <string name="search_by_transaction_btn01">Search</string>
+    <string name="search_by_transaction_alert_title01">Transaction Found</string>
+    <string name="search_by_transaction_alert_title02">Transaction Not Found</string>
+    <string name="search_by_transaction_alert_error">No transaction details were found in respect to the TransactionId: </string>
+
+    <string name="search_by_transaction_error_not_filled">Transaction Id cannot be empty!</string>
+    <string name="search_by_transaction_error_not_int">Transaction Id cannot be anything other than a number!</string>
+    <string name="search_by_transaction_error_neg_or_zero">Transaction Id must be a value greater than 0!</string>
+
+    <string name="string_id_account_info_tv01">Registration Details </string>
+    <string name="string_id_account_info_tv02">Personal Details </string>
+    <string name="string_id_account_info_tv03">Full Name</string>
+    <string name="string_id_account_info_tv04">Address  </string>
+    <string name="string_id_account_info_tv05">Contact Number </string>
+    <string name="string_id_account_info_tv06">Email </string>
+    <!--<string name="string_id_account_info_tv07">Account Number</string>-->
+    <string name="string_id_account_info_tv08">Full Name</string>
+    <string name="string_id_account_info_tv09">Address  </string>
+    <string name="string_id_account_info_tv10">Contact Number </string>
+    <string name="string_id_account_info_tv11">Email </string>
+    <string name="string_id_account_info_tv12">Age</string>
+    <string name="string_id_account_info_tv13">Age </string>
+    <string name="string_id_account_info_tv14">Gender </string>
+    <string name="string_id_account_info_tv15">Gender</string>
+
+    <string name="btn_account_update">DELETE ACCOUNT</string>
+    <string name="string_id_account_update_TV01">Delete your online user account</string>
+
+    <string name="logout">Log out</string>
+</resources>

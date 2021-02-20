@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.karawalaya.alliantbankapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bank_logo"
+        android:label="@string/string_id_Action_Bar_Title"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ACTIVITIES_FRAGMENTS.transaction_management.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ACTIVITIES_FRAGMENTS.user_management.Login" ></activity>
+        <activity android:name=".ACTIVITIES_FRAGMENTS.user_management.Register"></activity>
+        <activity android:name=".ACTIVITIES_FRAGMENTS.user_management.ForgotPassword"></activity>
+        <activity android:name=".ACTIVITIES_FRAGMENTS.user_management.ConfirmPassword"></activity>
+
+        <activity android:name=".ACTIVITIES_FRAGMENTS.transaction_management.MainActivity" ></activity>
+    </application>
+
+</manifest>

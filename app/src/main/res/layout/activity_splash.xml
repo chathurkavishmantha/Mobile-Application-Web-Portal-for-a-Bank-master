@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.karawalaya.alliantbankapp.ACTIVITIES_FRAGMENTS.transaction_management.Splash"
+    android:background="@drawable/splash_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/splashImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/splash_logo"
+            android:layout_gravity="center"
+            android:alpha=".65"/>
+
+        <TextView
+            android:id="@+id/splashText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10sp"
+            android:fontFamily="@string/font_family_thin"
+            android:text="@string/string_id_splash_welcome"
+            android:textColor="@color/colorSplash"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/bilbo_swash_caps"
+            android:alpha=".65"/>
+    </LinearLayout>
+</LinearLayout>
